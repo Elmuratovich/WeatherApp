@@ -7,7 +7,6 @@ const app = express();
 app.set('view engine', 'hbs');
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
-
 dotenv.config({path: './.env'});
 
 const db = mysql.createConnection({
