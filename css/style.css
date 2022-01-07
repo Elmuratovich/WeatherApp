@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "montserrat", sans-serif;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+.location {
+    text-align: center;
+}
+
+.city {
+    font-size: 45px;
+    color: #fff;
+}
+
+.data {
+    font-size: 30px;
+    color: #fff;
+}
+
+.main-temp {
+    text-align: center;
+}
+
+.temp {
+    font-size: 115px;
+    color: #fff;
+}
+
+.weather {
+    font-size: 35px;
+    color: #fff;
+    font-family: italic;
+}
+
+.hi-low {
+    font-size: 25px;
+    color: #fff;
+}
+
+main {
+    width: 65%;
+    float: left;
+    margin-top: 2%;
+}
+
+.search-box {
+    width: auto;
+    margin-left: 20px;
+}
+
+.week {
+    width: 100%;
+    text-align: center;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.small {
+    margin-left: 12px;
+}
+
+.time {
+    margin-top: 15px;
+    color: aqua;
+}
+
+@media (max-width: 900px) {
+    .app-wrap {
+        grid-template-columns: 100%;
+    }
+    main {
+        margin-top: 50px;
+    }
+    form {
+        width: 100%;
+    }
+}
+
+.me-3:hover {
+    background-color: rgb(120, 182, 243);
+    border-radius: 10px;
+}

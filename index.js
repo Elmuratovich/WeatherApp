@@ -3,6 +3,7 @@ const dotenv = require('dotenv');
 const mysql = require('mysql');
 const e = require('express');
 const app = express();
+const path = require('path');
 
 app.set('view engine', 'hbs');
 app.use(express.urlencoded({extended: false}));
@@ -24,7 +25,8 @@ db.connect(err => {
         console.log('MYSQL connected...');
     }
 });
-
+app.use(express.static(path.join(__dirname, 'css')))
+app.use(express.static(path.join(__dirname, 'Js')))
 app.use('/', require('./routes/page'));
 app.use('/auth', require('./routes/auth'));
 

@@ -1,23 +1,28 @@
 {
-  "name": "Proekt",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "hbs": "^4.2.0",
-    "mysql": "^2.18.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  }
+    "name": "weather-site",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MakhmudKuzikaev/Weather-site.git"
+    },
+    "author": "Makhmud Kuzikaev",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MakhmudKuzikaev/Weather-site/issues"
+    },
+    "homepage": "https://github.com/MakhmudKuzikaev/Weather-site#readme",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.2",
+        "hbs": "^4.2.0",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.15"
+    }
 }
