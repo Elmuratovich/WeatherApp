@@ -64,7 +64,7 @@ function dateBuilder(s) {
         "December",
     ];
     
-    let months = [
+    let monthsRU = [
         "Январь",
         "Декабрь",
         "Февраль",
@@ -88,6 +88,17 @@ function dateBuilder(s) {
         'Friday',
         'Saturday',
     ];
+    
+    let daysRu = [
+        'Воскресенье',
+        'Понедельник',
+        'Вторник',
+        'Среда',
+        'Четверг',
+        'Пятница',
+        'Суббота',
+    ];
+    
 
     let day = days[s.getDay()];
     let date = s.getDate();
